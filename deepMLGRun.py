@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 import sys
 import os
 import os.path
@@ -48,6 +49,9 @@ if __name__ == "main":
     my_model.fit(x=train_input, y=train_label, batch_size=BATCH_SIZE, epochs=EPOCHS, callbacks=callbacks_list, shuffle=True)
 
     print("Training is done")
+
+
+
 
     
     
